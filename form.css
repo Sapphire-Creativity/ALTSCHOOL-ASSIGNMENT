@@ -192,11 +192,23 @@ label {
 	border-radius: 5px;
 }
 @media screen and (max-width: 800px) {
+	section {
+		padding: 2rem;
+	}
 	.form-container {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.navbar ul {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	.form-row {
 		display: flex;

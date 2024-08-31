@@ -21,8 +21,6 @@ section h1 {
 	margin-bottom: 2rem;
 }
 
-
-
 img {
 	max-width: 100%;
 }
@@ -41,6 +39,7 @@ p {
 	padding: 2rem;
 	background: #000b46;
 	color: #fff;
+	margin-bottom: 5rem;
 }
 
 .navbar ul {
@@ -59,7 +58,7 @@ p {
 }
 
 .list-items li {
-	margin: 1.5rem;
+	margin: 1.5rem  0;
 	font-size: 1.5rem;
 	list-style: circle;
 }
@@ -90,7 +89,7 @@ p {
 .header {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	height: 100vh;
+	min-height: 100vh;
 	align-items: center;
 	padding: 5rem;
 }
@@ -103,7 +102,6 @@ p {
 }
 
 .home-content h1 {
-	font-size: 5rem;
 	margin: 1.5rem 0;
 	font-weight: 700;
 }
@@ -134,4 +132,24 @@ p {
 .about-section h1 {
 	color: #000b46;
 	margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+	section {
+		padding: 2rem;
+	}
+
+	.header {
+		grid-template-columns: 1fr;
+		padding: 2rem 1rem;
+	}
+	.navbar ul {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.home-content{
+		padding-top: 15rem;
+	}
 }

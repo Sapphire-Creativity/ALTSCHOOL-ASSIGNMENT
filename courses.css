@@ -131,3 +131,14 @@ tr:hover {
 .school-name {
 	font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+	section {
+		padding: 15rem 1rem;
+	}
+	.navbar ul {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+}

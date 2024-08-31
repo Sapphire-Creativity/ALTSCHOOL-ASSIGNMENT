@@ -120,3 +120,22 @@ p {
 	max-width: 100%;
 	width: 40rem;
 }
+
+.audio {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1.5rem 0;
+	max-width: 100%;
+	width: 40rem;
+}
+@media screen and (max-width: 768px) {
+	section {
+		padding: 20rem 1rem;
+	}
+	.navbar ul {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+}
