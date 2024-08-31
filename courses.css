@@ -1,0 +1,133 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+section {
+	padding: 10rem 5rem;
+}
+
+section h1 {
+	color: #0163f2;
+	margin-bottom: 2rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}
+
+.navbar {
+	display: flex;
+	position: fixed;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	padding: 2rem;
+	background: #000b46;
+	color: #fff;
+}
+
+.navbar ul {
+	display: flex;
+	gap: 2rem;
+	color: #ffff;
+	font-size: 1.5rem;
+}
+
+.navbar ul li a {
+	color: #fff;
+}
+
+.list-items {
+	padding: 2rem;
+}
+
+.list-items li {
+	margin: 1.5rem;
+	font-size: 1.5rem;
+	list-style: circle;
+}
+
+.top-link {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 4rem;
+}
+
+.button a,
+.top-link a {
+	background: #0163f2;
+	color: #fff;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+.home-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.home-button a {
+	background: #0163f2;
+	color: #fff;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+	font-size: 18px;
+}
+
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: left;
+	vertical-align: top;
+}
+
+th {
+	background-color: #f4f4f4;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+tr:hover {
+	background-color: #f1f1f1;
+}
+
+.school-name {
+	font-weight: bold;
+}
